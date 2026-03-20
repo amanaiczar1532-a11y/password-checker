@@ -33,19 +33,19 @@ if password:
         score += 1
     else:
         st.warning("No upper case found")
-        score -= 1
+        score -= 2
     
     if has_lower == True:
         score += 1
     else:
         st.warning("No lower case found")
-        score -= 1
+        score -= 2
     
     if has_digit == True:
         score += 1
     else:
         st.warning("No digit found")
-        score -= 1
+        score -= 2
     
     if has_special == True:
         score += 1
