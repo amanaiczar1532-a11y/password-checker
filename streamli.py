@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("Password Strength Checker")
 
-password = st.text_input("Enter your password", type="password")
+password = st.text_input("Enter your password to check if it's strong or weak", type="password")
 
 if password:
     length = len(password)
